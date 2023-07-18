@@ -42,7 +42,7 @@ ZHIMAABC reserves the right to terminate or suspend your access to the App witho
 
 6. Governing Law
 
-These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflicts of laws principles.
+These Terms shall be governed by and construed in accordance with the laws of Canada, without regard to its conflicts of laws principles.
 
 By using PoseCap, you agree to comply with these Terms.
 
