@@ -63,9 +63,29 @@
     <a href="https://apps.apple.com/us/app/posecap/id6446815671" ><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="AppStore Download" height="48px" /></a>
   </section>
   <br>
-  <footer class="footer">
+  <footer id="english-content" class="footer">
     <a href="./en/about/privacy.html" style="margin: 10px;">Privacy Policy</a><a href="./en/about/tos.html" style="margin: 10px;">Terms and Conditions</a><br>
     Copyright © 2022-2023 PoseCap.com
   </footer>
+  <footer id="chinese-content" class="footer">
+    <a href="./zh/about/privacy.html" style="margin: 10px;">隐私条款</a><a href="./zh/about/tos.html" style="margin: 10px;">服务条款</a><br>
+    版权所有 © 2022-2023 PoseCap.com
+  </footer>
+  <script>
+    function switchLanguage(language) {
+      if (language === 'en') {
+        document.getElementById('english-content').style.display = 'block';
+        document.getElementById('chinese-content').style.display = 'none';
+      } else if (language === 'zh') {
+        document.getElementById('english-content').style.display = 'none';
+        document.getElementById('chinese-content').style.display = 'block';
+      }
+    }
+    // Get the user's language preference from the browser
+    var userLanguage = navigator.language || navigator.userLanguage;
+    // Extract the first two characters to get the language code
+    var languageCode = userLanguage.substr(0, 2);
+    switchLanguage(languageCode)
+  </script>
 </body>
 </html>
