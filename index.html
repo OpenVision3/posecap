@@ -3,84 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Specify the default language for the page -->
+  <link rel="alternate" href="index.html" hreflang="en">
+  <!-- Language alternatives for the page -->
+  <link rel="alternate" href="index-zh.html" hreflang="zh-cn">
   <title>PoseCap - Home</title>
-  <style>
-    /* Define your default font-family and other font properties here */
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      /* Additional font properties if desired */
-    }
-    /* Define the border-radius for the image */
-    img.rounded {
-      border-radius: 50px; /* You can adjust the radius value as per your preference */
-      background-color: black;
-    }
-    img.roundedred {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: red;
-    }
-    img.roundedorange {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: orange;
-    }
-    img.roundedyellow {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: yellowgreen;
-    }
-    img.roundedgreen {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: green;
-    }
-    img.roundedcyan {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: cyan;
-    }
-    img.roundedblue {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: blue;
-    }
-    img.roundedpurple {
-      border-radius: 40px; /* You can adjust the radius value as per your preference */
-      background-color: purple;
-    }
-</style>
 </head>
 <body>
-  <header>
+  <header class="header">
     <!-- Header section content -->
+    <h1>PoseCap</h1>
+    <h3>Capture your wonderful moments</h3>
     <nav>
       <!-- Navigation menu content -->
     </nav>
   </header>
-
-  <section>
-    <center>
-      <h1>PoseCap</h1>
-      <h2>Capture your wonderful moments</h2><br>
+  <section class="top">
       <!-- Add a captivating hero image or video -->
-      <img class="rounded" src="images/Icon-App-iTunes.png" alt="PoseCap Hero Image" width="200" height="200"><BR><br>
-      <!-- Include a CTA button or link to download the app -->
-      <a href=" https://apps.apple.com/us/app/posecap/id6446815671" class="cta-button">Download PoseCap</a>
-    </center>
+      <img class="rounded" src="images/mc-en.jpg" alt="抓拍LOGO">
   </section>
-
-  <br>
-  <br>
-
-  <section>
-    <center>
-    <img class="roundedred" src="images/pose1.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedorange" src="images/pose2.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedyellow" src="images/pose3.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedgreen" src="images/pose4.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedcyan" src="images/pose5.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedblue" src="images/pose6.png" alt="PoseCap Hero Image" width="80" height="80">
-    <img class="roundedpurple" src="images/pose7.png" alt="PoseCap Hero Image" width="80" height="80">
-  </center>
+  <section class="features">
+    <h2>Main Features</h2>
+    <ul>
+      <li>
+        <!-- Feature 1 content -->
+        <h3>Manual Capture</h3>
+        <p>Manually focus, zoom, frame, and take a photo with just one click.</p>
+        </li>
+        <li>
+          <!-- Feature 2 content -->
+          <h3>Auto Capture</h3>
+          <p>Hold a pose for 3 seconds, and it will automatically capture.</p>
+        </li>
+        <li>
+          <!-- Feature 3 content -->
+          <h3>Video Capture</h3>
+          <p>Capture photos while recording videos.</p>
+        </li>
+        <li>
+          <!-- Feature 4 content -->
+          <h3>Posing Challenge</h3>
+          <p>Strike the poses displayed on the screen for capturing.</p>
+        </li>
+    </ul>
+  </section>
+  <section class="poses">
+      <div>
+        <img class="roundedred" src="images/pose1.png" alt="PoseCap Pose - Right Hand Akimbo" width="80" height="80">
+        <img class="roundedorange" src="images/pose2.png" alt="PoseCap Pose - Tap Head" width="80" height="80">
+        <img class="roundedyellow" src="images/pose3.png" alt="PoseCap Pose - Sitting" width="80" height="80">
+        <img class="roundedgreen" src="images/pose4.png" alt="PoseCap Pose - Left Hand Akimbo" width="80" height="80">
+        <img class="roundedcyan" src="images/pose5.png" alt="PoseCap Pose - Swaying" width="80" height="80">
+        <img class="roundedblue" src="images/pose6.png" alt="PoseCap Pose - Stand Side On" width="80" height="80">
+        <img class="roundedpurple" src="images/pose7.png" alt="PoseCap Pose - Rotating" width="80" height="80">
+      </div>
+  </section>
+  <section class="download">
+    <a href="https://apps.apple.com/us/app/posecap/id6446815671" ><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="AppStore Download" height="48px" /></a>
   </section>
   <br>
-  <footer>
-    <center>Copyright © 2022-2023 PoseCap.com</center>
+  <footer class="footer">
+    <a href="./en/about/privacy.html" style="margin: 10px;">Privacy Policy</a><a href="./en/about/tos.html" style="margin: 10px;">Terms and Conditions</a><br>
+    Copyright © 2022-2023 PoseCap.com
   </footer>
 </body>
 </html>
