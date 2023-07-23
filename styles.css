@@ -12,10 +12,10 @@
     background-color: #4192F4;
     color:white;
   }
-  .top {
+  .hero {
     text-align: center;
-    
   }
+
   .features {
     text-align: center;
     background-color: white;
@@ -60,6 +60,17 @@
     border-radius: 10px; /* You can adjust the radius value as per your preference */
     background-color: black;
     width: 300px;
+  }
+  img.hero {
+    border-radius: 0px; /* You can adjust the radius value as per your preference */
+    background-color: black;
+    width: 300px;
+  }
+
+  img.logo {
+    border-radius: 10px; /* You can adjust the radius value as per your preference */
+    background-color: black;
+    width: 50px;
     /* height: 150px; */
   }
   img.roundedred {

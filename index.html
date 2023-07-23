@@ -14,38 +14,54 @@
   <div id="chinese-content"> 
     <header class="header">
       <!-- Header section content -->
+      <img class="logo" src="images/logo.png" alt="logo">
       <h1>抓拍</h1>
-        <h3>抓住你的精彩瞬间</h3>
+      <h3>抓拍你的精彩瞬间</h3>
       <nav>
         <!-- Navigation menu content -->
+        <a href="#section_feature_manual_zh">手动抓拍</a>
+        <a href="#section_feature_auto_zh">自动抓拍</a>
+        <a href="#section_feature_video_zh">录像抓拍</a>
+        <a href="#section_feature_posing_zh">摆拍挑战</a>
+        <a href="#section_download_zh">下载</a>
+        <a href="javascript:switchLanguage('en')">English</a>
       </nav>
     </header>
-    <section class="top">
+    <section class="hero">
         <!-- Add a captivating hero image or video -->
-        <img class="rounded" src="images/mc-zh.jpg" alt="抓拍LOGO">
+        <img class="hero" src="images/hero1-zh.jpg" alt="hero1">
+        <img class="hero" src="images/hero2-zh.jpg" alt="hero2">
     </section>
     <section class="features">
       <h2>主要特性</h2>
       <ul>
         <li>
+          <a name="section_feature_manual_zh"></a>
           <!-- Feature 1 content -->
           <h3>手动抓拍</h3>
           <p>手动对焦，缩放，取景，拍照, 点击一次全部完成。</p>
+          <img class="rounded" src="images/mc-zh.jpg" alt="Manual Capture"> 
           </li>
         <li>
+          <a name="section_feature_auto_zh"></a>
           <!-- Feature 2 content -->
           <h3>自动抓拍</h3>
           <p>保持姿势3秒，立即自动抓拍。</p>
+          <img class="rounded" src="images/ac-zh.jpg" alt="Auto Capture">
         </li>
         <li>
+          <a name="section_feature_video_zh"></a>
           <!-- Feature 3 content -->
           <h3>录像抓拍</h3>
           <p>边录像，边抓拍。</p>
+          <img class="rounded" src="images/vr-zh.jpg" alt="Video Recording">
         </li>
         <li>
+          <a name="section_feature_posing_zh"></a>
           <!-- Feature 4 content -->
           <h3>摆拍挑战</h3>
           <p>摆出屏幕上的姿势就抓拍。</p>
+          <img class="rounded" src="images/pc-zh.jpg" alt="Posing challenge">
         </li>
       </ul>
     </section>
@@ -61,6 +77,7 @@
         </div>
     </section>
     <section class="download">
+      <a name="section_download_zh"></a>
       <a href="https://apps.apple.com/us/app/posecap/id6446815671" ><img src="images/Download_on_the_App_Store_Badge_CNSC_RGB_blk_092917.svg" alt="AppStore下载" height="48px" /></a>
     </section>
     <br>
@@ -72,38 +89,54 @@
   <div id="english-content">
     <header class="header">
       <!-- Header section content -->
+      <img class="logo" src="images/logo.png" alt="logo">
       <h1>PoseCap</h1>
       <h3>Capture your wonderful moments</h3>
       <nav>
         <!-- Navigation menu content -->
+        <a href="#section_feature_manual">Manual Capture</a>
+        <a href="#section_feature_auto">Auto Capture</a>
+        <a href="#section_feature_video">Video Capture</a>
+        <a href="#section_feature_posing">Posing Challenge</a>
+        <a href="#section_download">Download</a>
+        <a href="javascript:switchLanguage('zh')">中文</a>
       </nav>
     </header>
-    <section class="top">
-        <!-- Add a captivating hero image or video -->
-        <img class="rounded" src="images/mc-en.jpg" alt="抓拍LOGO">
+    <section class="hero">
+        <!-- Add a captivating hero image or video -->  
+        <img class="hero" src="images/hero1.jpg" alt="hero1">
+        <img class="hero" src="images/hero2.jpg" alt="hero2">
     </section>
     <section class="features">
       <h2>Main Features</h2>
       <ul>
         <li>
+          <a name="section_feature_manual"></a>
           <!-- Feature 1 content -->
           <h3>Manual Capture</h3>
           <p>Manually focus, zoom, frame, and take a photo with just one click.</p>
-          </li>
+          <img class="rounded" src="images/mc-en.jpg" alt="Manual Capture">  
+        </li>
           <li>
             <!-- Feature 2 content -->
+            <a name="section_feature_auto"></a>
             <h3>Auto Capture</h3>
             <p>Hold a pose for 3 seconds, and it will automatically capture.</p>
+            <img class="rounded" src="images/ac-en.jpg" alt="Auto Capture">
           </li>
           <li>
             <!-- Feature 3 content -->
+            <a name="section_feature_video"></a>
             <h3>Video Capture</h3>
             <p>Capture photos while recording videos.</p>
+            <img class="rounded" src="images/vr-en.jpg" alt="Video Recording">
           </li>
           <li>
             <!-- Feature 4 content -->
+            <a name="section_feature_posing"></a>
             <h3>Posing Challenge</h3>
             <p>Strike the poses displayed on the screen for capturing.</p>
+            <img class="rounded" src="images/pc-en.jpg" alt="Posing challenge">
           </li>
       </ul>
     </section>
@@ -119,6 +152,7 @@
         </div>
     </section>
     <section class="download">
+      <a name="section_download"></a>
       <a href="https://apps.apple.com/us/app/posecap/id6446815671" ><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="AppStore Download" height="48px" /></a>
     </section>
     <br>
@@ -147,7 +181,7 @@
     var userLanguage = navigator.language || navigator.userLanguage;
     // Extract the first two characters to get the language code
     var languageCode = userLanguage.substr(0, 2);
-    switchLanguage(languageCode)
+    switchLanguage('en')
   </script>
 </body>
 </html>
