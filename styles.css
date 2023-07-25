@@ -57,7 +57,7 @@
   }
   /* Define the border-radius for the image */
   img.rounded {
-    border-radius: 10px; /* You can adjust the radius value as per your preference */
+    border-radius: 50px; /* You can adjust the radius value as per your preference */
     background-color: black;
     width: 300px;
   }
