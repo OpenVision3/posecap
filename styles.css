@@ -1,0 +1,135 @@
+  a {
+    text-decoration: none;
+  }
+ 
+  /* Define your default font-family and other font properties here */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont,"SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* Additional font properties if desired */
+  }
+  .header {
+    text-align: center;
+    background-color: #4192F4;
+    color:white;
+  }
+  .hero {
+    text-align: center;
+  }
+
+  .features {
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  .footer {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #4192F4;
+    color:white;  
+  }
+  .poses {
+    text-align: center;
+    margin:10px;
+  }
+  .download {
+    text-align: center;
+    margin: 20px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  h3 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  ul {
+    padding-inline-start: 0px;
+  }
+  li {
+    text-align: center;
+    list-style: none;
+  }
+  /* Define the border-radius for the image */
+  img.rounded {
+    border-radius: 50px; /* You can adjust the radius value as per your preference */
+    background-color: black;
+    width: 300px;
+  }
+  img.hero {
+    border-radius: 0px; /* You can adjust the radius value as per your preference */
+    background-color: black;
+    width: 300px;
+  }
+
+  img.logo {
+    border-radius: 10px; /* You can adjust the radius value as per your preference */
+    background-color: black;
+    width: 50px;
+    /* height: 150px; */
+  }
+  img.roundedred {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: red;
+  }
+  img.roundedorange {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: orange;
+  }
+  img.roundedyellow {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: yellowgreen;
+  }
+  img.roundedgreen {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: green;
+  }
+  img.roundedcyan {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: cyan;
+  }
+  img.roundedblue {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: blue;
+  }
+  img.roundedpurple {
+    border-radius: 40px; /* You can adjust the radius value as per your preference */
+    background-color: purple;
+  }
+  /* Add any other styles as needed */
+  img.feature-image {
+    border-radius:30px;
+    width: 285px;
+  }
+  img.feature-sample-image {
+    border-radius:10px;
+    width: 150px;
+  }
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust the spacing between images as needed */
+    max-width: 300px; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    justify-content: center;
+    position: relative;
+  }
+  /* Add any other styles as needed */
+  .container {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-column {
+    flex: 10;
+    padding: 10px;
+  }

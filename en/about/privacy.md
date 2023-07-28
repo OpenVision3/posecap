@@ -1,4 +1,5 @@
-Privacy Policy for PoseCap - Effective Date: 1st August 2023
+Privacy Policy for PoseCap
+Last updated: 27 July 2023
 
 Welcome to PoseCap! This Privacy Policy outlines how we collect, use, and protect the information you provide while using our iOS camera mobile app ("App"). By using PoseCap, you agree to the terms described in this policy.
 
@@ -31,6 +32,3 @@ PoseCap does not integrate with any third-party services, and we do not share yo
 We may update this Privacy Policy from time to time to reflect changes to our information practices. We will notify you of any material changes by posting the revised Privacy Policy within the app or by other means as required by applicable law.
 
 By using PoseCap, you agree to the terms outlined in this Privacy Policy.
-
-Last updated: 1st August 2023
-
