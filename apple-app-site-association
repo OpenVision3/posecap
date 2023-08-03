@@ -3,7 +3,7 @@
        "details": [
             {
               "appIDs": [ "YXE76ZE493.com.zhimaabc.snapmoment" ],
-              "paths": ["*"]
+              "paths": ["/dl/*"]
             }
         ]
     }
